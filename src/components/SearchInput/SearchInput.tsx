@@ -43,7 +43,7 @@ const SearchInput = () => {
         <div className="search-container">
             <div className="search-input-container">
                 <img
-                    src="../src/assets/search.svg"
+                    src="../../assets/search.svg"
                     alt="Search"
                     className="search-icon"
                 />

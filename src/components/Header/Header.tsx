@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <header className="main-header">
             <div className="header">
                 <Link to="/" className="logo">
-                    <img src="../src/assets/logo.svg" alt="Логотип" className="logo" />
+                    <img src="../../assets/logo.svg" alt="Логотип" className="logo" />
                 </Link>
 
                 <nav className="main-nav">
