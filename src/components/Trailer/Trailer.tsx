@@ -7,30 +7,25 @@ interface TrailerModalProps {
 }
 
 const TrailerModal: React.FC<TrailerModalProps> = ({ movie }) => {
-  const [isOpen, setIsOpen] = useState(false); // Состояние модального окна
-
-  // Функция для открытия модального окна
+  const [isOpen, setIsOpen] = useState(false); 
+  
   const openModal = () => {
     setIsOpen(true);
   };
 
-  // Функция для закрытия модального окна
   const closeModal = () => {
     setIsOpen(false);
   };
 
   return (
     <div>
-      {/* Кнопка для открытия модального окна */}
       <button onClick={openModal} className="blue-button">
         Трейлер
       </button>
 
-      {/* Модальное окно */}
       {isOpen && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            {/* Кнопка закрытия */}
             <button onClick={closeModal} className="close-trailer-button"/>
 
             <iframe

@@ -62,7 +62,7 @@ const MovieCard: FC<Movie> = ({ movie, setMovie }) => {
       setIsFavorite(!isFavorite);
     } catch (error) {
       console.error("Ошибка при изменении статуса избранного:", error);
-        setIsAuthModalOpen(true); // Показываем модальное окно, если пользователь не авторизован
+        setIsAuthModalOpen(true);
       
     }
   };
