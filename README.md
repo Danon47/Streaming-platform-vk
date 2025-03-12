@@ -46,11 +46,12 @@
 
 ## Установка и запуск
 
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/Danon47/Streaming-platform-vk.git
+1. **Клонирование**:  
+   ```bash
+   git clone https://github.com/Danon47/Streaming-platform-vk.git
 
-2. **Установите зависимости и запустите проект:**:  
+2. **Запуск проекта**:  
    ```bash
    npm install
    npm run dev
+
