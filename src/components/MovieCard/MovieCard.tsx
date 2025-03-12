@@ -68,7 +68,7 @@ const MovieCard: FC<Movie> = ({ movie, setMovie }) => {
   };
 
     const handleRefresh = () => {
-      apiClient.movie.getRandom()
+      apiClient.get('/movie/random')
           .then((response) => setMovie(response.data))
           .catch((error) => console.error("Ошибка загрузки нового фильма:", error));
   };

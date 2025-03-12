@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import SearchInput from '../SearchInput/SearchInput';
-import { getProfileInfo } from '../../API/api';
+import apiClient from '../../API/api';
 import { ProfileProps } from '../../utils/ProfileProps';
 import AuthModal from '../Authorization/Authorization';
 import './Header.css'
@@ -13,8 +13,9 @@ const Header: React.FC = () => {
 
     
     const fetchProfile = async () => {
-        const profileInfo = await getProfileInfo();
-        setProfile(profileInfo);
+        await apiClient.get('/profile')
+        .then(response => {
+            setProfile(response.data)});
     };
 
     useEffect(() => {
