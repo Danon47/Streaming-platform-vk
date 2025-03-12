@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-wrapper {
+    padding: 40px 0;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 24px;
+}
+
+.vk {
+    background-image: url(../src/assets/vk.svg);
+}
+
+.yt {
+    background-image: url(../src/assets/youtube.svg);
+}
+
+.ok {
+    background-image: url(../src/assets/ok.svg);
+}
+
+.tg {
+    background-image: url(../src/assets/telegram.svg); 
+    margin-right: 0;   
+}

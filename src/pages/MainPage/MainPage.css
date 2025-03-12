@@ -1,0 +1,49 @@
+.movie-section {
+    margin-bottom: 43px;
+}
+
+.top-movies h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 64px;
+}
+
+.movies-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.movie-item {
+    position: relative;
+    width: 224px;
+    height: 336px;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF40;
+    box-shadow: 0px 0px 80px 0px #FFFFFF54;
+}
+
+.movie-rank {
+    position: absolute;
+    width: 62px;
+    height: 48px;
+    top: -12px;
+    left: -12px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: #6A5DC2;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.top-movie-img {
+    width: 224px;
+    height: 336px;
+    border-radius: 16px;
+    object-fit: cover;
+    overflow: hidden;
+}

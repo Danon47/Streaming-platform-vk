@@ -1,0 +1,154 @@
+.account-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 81vh;
+}
+
+.account-h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 64px;
+}
+
+.account-bttn-wrapper {
+    margin-bottom: 64px;
+}
+
+.auth-bttn {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    position: relative;
+}
+
+.underline {
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #DC5DFC
+}
+
+.auth-bttn:nth-child(1){
+    margin-right: 64px;
+}
+
+.auth-bttn:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 24px; 
+    height: 24px;
+    background-image: url('../../assets/favorite.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.auth-bttn:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 24px; 
+    height: 24px;
+    background-image: url('../../assets/user.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fav-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+
+
+.fav-item {
+position: relative;
+width: 224px;
+height: 336px;
+border-radius: 16px;
+box-shadow: 0px 0px 80px 0px #FFFFFF54;
+border: 1px solid #FFFFFF40;
+}
+
+.fav-item:hover {
+    outline: 1px solid #FFFFFF;
+}
+
+.fav-delite {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    left: 204px;
+    padding: 8px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    background-image: url('../../assets/closeblack.svg');
+    background-size: 24px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fav-item:hover .fav-delite {
+    opacity: 1;
+}
+
+.account-info-wrapper {
+    display: flex;
+}
+
+.name {
+    margin-bottom: 40px;
+}
+
+.email {
+    margin-bottom: 64px;
+}
+
+.name-div {
+    background-color: #FFFFFF80;
+    padding: 14px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 16px;
+}
+
+.account-info-wrapper span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.account-info-wrapper p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 4px;
+}
+
+.email-div {
+    background-color: #FFFFFF80;
+    background-image: url(../../assets/mail-white.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 16px;
+}
+
+.account-bttn {
+    width: 269px;
+    margin-bottom: auto;
+}

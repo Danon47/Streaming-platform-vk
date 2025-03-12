@@ -1,0 +1,59 @@
+
+
+body {
+    padding: 0 80px;
+    margin: 0 auto;
+    font-family: Play, sans-serif;
+    background: linear-gradient(180deg, #0a0a25 0%, rgba(39, 36, 36, 0.7) 70%),
+    linear-gradient(178.73deg, rgba(39, 135, 245, 0.8) -17.53%, rgba(163, 147, 245, 0.8) 131.74%);
+
+    max-width: 1440px;
+    height: 100%;
+    color: #FFFFFF;
+    
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    font-family: Play;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #67A5EB;
+    border: none;
+    padding: 16px 48px;
+    border-radius: 28px;
+}
+
+input {
+    font-family: Play;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+  
+
+
+
+
+
+
+

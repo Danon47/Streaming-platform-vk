@@ -1,0 +1,36 @@
+.header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+}
+
+.logo {
+    width: 145px;
+    height: 32px;
+    margin-right: 80px;
+    align-self: center;
+}
+
+.main-nav {
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.login-button {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.underline {
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #DC5DFC
+}

@@ -1,0 +1,110 @@
+.search-container {
+    position: relative;
+}
+
+  .search-input-container {
+    width: 655px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #393B3C;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon {
+ padding-left: 16px;
+ margin-right: 12px;
+}
+
+.search-input {
+    width: 85%;
+    padding: 16px 12px;
+    background-color: #393B3C;
+    border: #393B3C;
+    color: #FFFFFF;
+    margin-right: 12px;
+}
+
+.clear-icon {
+    cursor: pointer;
+}
+
+.dropdown-results {
+    position: absolute;
+    width: 80%;
+    top: 100%;
+    left: 0;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 12px;
+    background-color: #393B3C;
+    max-height: 476px;
+    z-index: 1000;
+}
+
+.movie-card {
+    height: 92px;
+    border-radius: 6px;
+    padding: 20px 8px;
+    display: flex;
+}
+
+.movie-card:hover {
+    outline: 1px solid  #FFFFFF80
+}
+
+.movie-card:focus {
+    outline: 1px solid  #FFFFFF80
+}
+
+.movie-poster {
+    width: 40px;
+    height: 52px;
+    margin-right: 16px;
+    max-height: auto;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+.movie-inf-mini {
+    margin-bottom: 8px;
+}
+
+.main-inf-mini {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.span-gray-mini {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 12px;
+    color: #FFFFFFB2;
+}
+
+.rating-mini {
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 16px;
+    padding-left: 22px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    
+    position: relative;
+}
+
+.rating-mini::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; 
+    height: 10px;
+    background-image: url('../src/assets/star.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

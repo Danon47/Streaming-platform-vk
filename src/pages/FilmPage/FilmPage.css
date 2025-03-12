@@ -1,0 +1,63 @@
+.h2-about {
+    margin-bottom: 64px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.movie-details {
+    list-style: none;
+    padding: 0;
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 120px;
+  }
+  
+  .detail-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .detail-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  
+  .value-wrapper {
+    min-width: 220px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .dots-wrapper {
+    flex: 1;
+    min-width: 50px;
+    position: relative;
+  }
+  
+  .dots-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px dotted #FFFFFF80;
+  }
+  
+  .detail-label {
+    white-space: nowrap;
+  }
+  
+  .detail-value {
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+  }
+  
+  .value-wrapper::before {
+    content: '';
+    display: inline-block;
+  }
